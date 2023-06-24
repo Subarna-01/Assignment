@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #cccccc;
+}
+#brand-title {
+    margin: auto;
+    margin-left: 25px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#products-browsing {
+    margin: auto;
+    margin-left: 25px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#searchbar {
+    height: 35px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-right: 25px;
+    border-radius: 25px;
+    border: 1px solid #6c757d;
+}
+#search {
+    height: 30px;
+    width: 295px;
+    margin: auto;
+    border: 0px none;
+    outline: none;
+}
+#search::placeholder {
+    font-style: italic;
+}
+#search-btn {
+    height: 30px;
+    width: 45px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-left: 1px solid #6c757d;
+}
+#search-btn img {
+    height: 22.5px;
+    width: 22.5px;
+    margin: auto;
+    transition: 700ms linear;
+}
+.search-icon-hover {
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+#root {
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+.user-reg {
+    width: 30%;
+    margin: auto;
+}
+.user-login {
+    width: 30%;
+    margin: auto;
+}
+#user {
+    margin: auto;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.create-store {
+    width: 30%;
+    margin: auto;
+}
+.add-prod {
+    width: 30%;
+    margin: auto;
+}
+.alert-primary {
+    display: flex;
+    flex-direction: row;
+}
+.alert-primary img {
+    height: 25px;
+    width: 25px;
+    margin: auto;
+    margin-right: 0.5%;
+}
+.alert-primary span {
+    margin: auto;
+    margin-left: 0.5%;
+}
+footer {
+    height: 10vh;
+    border-top: 1px solid #cccccc;
+}
+.product-info {
+    width: 35%;
+    margin: auto;
+}
